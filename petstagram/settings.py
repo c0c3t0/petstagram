@@ -9,7 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localuser',
     '127.0.0.1',
-    'https://django-petstagram-app.herokuapp.com/',
+    'django-petstagram-app.herokuapp.com',
 ]
 
 DJANGO_APPS = (
