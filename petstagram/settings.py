@@ -9,6 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localuser',
     '127.0.0.1',
+    'https://django-petstagram-app.herokuapp.com/',
 ]
 
 DJANGO_APPS = (
@@ -75,10 +76,10 @@ WSGI_APPLICATION = 'petstagram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'petstagram_db',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1',
+        'NAME': 'd9trljil5c4a4j',
+        'USER': 'qeduhblkvydamg',
+        'PASSWORD': '04371c3607cd3e21bcd536816f2b7fdc988a233c4f4849501cb175672b0208f1',
+        'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
